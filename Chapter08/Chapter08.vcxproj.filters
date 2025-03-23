@@ -8,8 +8,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="ExpressTree.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ListStack.h" />
+    <ClCompile Include="ExpTreeMain.cpp" />
   </ItemGroup>
 </Project>

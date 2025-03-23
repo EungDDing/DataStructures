@@ -33,7 +33,7 @@ public:
 	{
 		return right;
 	}
-	void MakeLeftSubTree(BTreeNode<T>*& sub)
+	void MakeLeftSubTree(BTreeNode<T>* sub)
 	{
 		if (left != nullptr)
 		{
@@ -43,7 +43,7 @@ public:
 			
 		left = sub;
 	}
-	void MakeRightSubTree(BTreeNode<T>*& sub)
+	void MakeRightSubTree(BTreeNode<T>* sub)
 	{
 		if (right != nullptr)
 		{
